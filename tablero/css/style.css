@@ -1,0 +1,22 @@
+table {
+   margin: 0 auto;
+   border-collapse: collapse;
+   background: #fff;
+   border: 1px solid #25ca4f;
+   position: relative;
+   top: 50%;
+   transform: translateY(14%);
+
+}
+
+td {
+	width: 90px;
+	height: 90px;
+}
+
+tr:nth-child(odd) 
+td:nth-child(even), 
+tr:nth-child(even) 
+td:nth-child(odd) {
+	background: #25ca4f;
+}
